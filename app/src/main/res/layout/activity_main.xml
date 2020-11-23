@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Date:"
+            android:textSize="24sp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/dateValue_tv"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textSize="24sp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/mse_tv"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="Milliseconds since epoch:"
+            android:textSize="24sp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/mseValue_tv"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:textSize="24sp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="Time:"
+            android:textSize="24sp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/timeValue_tv"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:textSize="24sp"
+            android:translationY="20dp" />
+
+        <Button
+            android:id="@+id/request_btn"
+            android:layout_width="157dp"
+            android:layout_height="70dp"
+            android:background="#0CE315"
+            android:text="Get request"
+            android:translationX="120dp"
+            android:translationY="300dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
