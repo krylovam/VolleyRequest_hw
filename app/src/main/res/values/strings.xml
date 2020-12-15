@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">VolleyRequest_hw</string>
+    <string name ="tvDate"> Date: </string>
+    <string name ="tvMilliseconds"> Milliseconds since epoch: </string>
+    <string name ="tvTime">Time: </string>
+    <string name ="btnRequest">Get request </string>
 </resources>

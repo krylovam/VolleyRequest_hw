@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +17,7 @@
             android:id="@+id/date_tv"
             android:layout_width="match_parent"
             android:layout_height="36dp"
-            android:text="Date:"
+            android:text="@string/tvDate"
             android:textSize="24sp"
             android:translationY="20dp" />
 
@@ -33,7 +32,7 @@
             android:id="@+id/mse_tv"
             android:layout_width="match_parent"
             android:layout_height="39dp"
-            android:text="Milliseconds since epoch:"
+            android:text="@string/tvMilliseconds"
             android:textSize="24sp"
             android:translationY="20dp" />
 
@@ -48,7 +47,7 @@
             android:id="@+id/time_tv"
             android:layout_width="match_parent"
             android:layout_height="39dp"
-            android:text="Time:"
+            android:text="@string/tvTime"
             android:textSize="24sp"
             android:translationY="20dp" />
 
@@ -64,8 +63,9 @@
             android:layout_width="157dp"
             android:layout_height="70dp"
             android:background="#0CE315"
-            android:text="Get request"
+            android:text="@string/btnRequest"
             android:translationX="120dp"
-            android:translationY="300dp" />
+            android:translationY="300dp"
+            android:onClick="onclick"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
